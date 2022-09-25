@@ -15,7 +15,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app
+      - name: zeandockerrepo
         image: 708603287975.dkr.ecr.ca-central-1.amazonaws.com/zeandockerrepo:latest
         imagePullPolicy: Always
         ports:
